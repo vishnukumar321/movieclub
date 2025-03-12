@@ -3,7 +3,7 @@
 <form action="">
   <table class="table">
     <tr>
-      <td class="si"><h1>Sigh in</h1></td>
+      <td class="si"><h1>Sigh Up</h1></td>
     </tr>
     
       <tr>
