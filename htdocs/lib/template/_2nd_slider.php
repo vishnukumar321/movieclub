@@ -1,54 +1,22 @@
+<?php
+include_once "lib/load.php";
+$domain=get_conf("domain");
 
+?>
 <!-- partial:index.partial.html -->
  <div class="catr">
     <h2>Popular Movies</h2>
  </div>
 <div class="card-slider" id="card-slider">
 <div class="card">
-    <a href="https://accessible360.com" target="_blank" class="main-link">
-      <h3 class="title">Dawshom Awbotaar.</h3>
-
-      <div class="image">
-        <img src="https://legacy.asset.viewlift.com/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2024/02/12/1707737525310_da_1280x720_16x9Images.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
-      </div>
-    </a>
-
-    <span class="description">2023 | Bengali | Crime Thriller | 2h 31m
-</span>
-
-   
-  </div>
-  <div class="card">
-    <a href="https://accessible360.com" target="_blank" class="main-link">
-      <h3 class="title">Khoj</h3>
-
-      <div class="image">
-        <img src="https://legacy.asset.viewlift.com/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/0f/9f/4fee95ee4d4ab309f608155e354b/1568460758251_khoj_16x9Images.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
-      </div>
-    </a>
-
-    <span class="description">2017 | Bengali | mystery | 1h 55m
-</span>
-
-   
-  </div>
-  <div class="card">
-    <a href="https://accessible360.com" target="_blank" class="main-link">
-      <h3 class="title">Pariah</h3>
-
-      <div class="image">
-        <img src="https://legacy.asset.viewlift.com/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2024/12/20/1734672616971_pariah_poster_1280x720111_16x9Images.png" alt="Small succulent with long, spikey leaves in a mug-like planter.">
-      </div>
-    </a>
-
-    <span class="description">2024 | Bengali | action_thriller | 2h 15m
-</span>
-
-    
-  </div>
-
-  <div class="card">
-    <a href="https://accessible360.com" target="_blank" class="main-link">
+    <a href='<?php echo $domain;?><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=x9fcxlm"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>' target="_blank" class="main-link">
       <h3 class="title">Marco</h3>
 
       <div class="image">
@@ -61,40 +29,14 @@
 
    
   </div>
-
-  <div class="card">
-    <a href="https://accessible360.com" target="_blank" class="main-link">
-      <h2 class="title">Tabaah</h2>
-
-      <div class="image">
-        <img src="https://images.chaupal.tv/021053e6c566951d36c068cddd73a8ad/021053e6c566951d36c068cddd73a8ad" alt="Small succulent with long, spikey leaves in a mug-like planter.">
-      </div>
-    </a>
-
-    <p class="description">2024 | Punjabi | Drama, Romance | 1h 47m
-    </p>
-
-    
-  </div>
-  <div class="card">
-    <!-- Notice that both the image and the product title are in the same link. This can massively reduce the number of redundant tabstops on a page with lots of products, creating a better UX for keyboard-only and screen reader users. -->
-    <a href="https://accessible360.com" target="_blank" class="main-link">
-      <h3 class="title">Ek Hazaaron Mein… Meri Behna Hai</h3>
-
-      <!-- This image has a descriptive alt attribute, so it helps to place it after the heading in the DOM. Flexbox is used to place it above the heading visually (see the CSS tab to see how). -->
-      <div class="image">
-        <img src="https://d229kpbsb5jevy.cloudfront.net/sony4/videoasset_images/ehmmbh_hindi_21june_landscape_thumb.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
-      </div>
-    </a>
-
-    <span class="description">Hindi | 2h 12m  | 2023</span>
-
-    <!-- The badge is placed right next to prices so its read out by screen readers in a more logical way. -->
-
-    <!-- Star icons don't convey anything to screen readers on their own, so we need to provide screen-reader-only text with their meaning. -->
-
-  </div>
-  <a href="https://accessible360.com" target="_blank" class="main-link">
+  <a href='<?php echo $domain;?><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=x9eo304"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>' target="_blank" class="main-link">
   <div class="card">
     
       <h3 class="title">Greenland</h3>
@@ -112,7 +54,120 @@
   </a>
 
   <div class="card">
-    <a href="https://accessible360.com" target="_blank" class="main-link">
+    <a href='<?php echo $domain;?><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=x9dcp34"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>' target="_blank" class="main-link">
+      <h2 class="title">Tabaah</h2>
+
+      <div class="image">
+        <img src="https://images.chaupal.tv/021053e6c566951d36c068cddd73a8ad/021053e6c566951d36c068cddd73a8ad" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+      </div>
+    </a>
+
+    <p class="description">2024 | Punjabi | Drama, Romance | 1h 47m
+    </p>
+
+    
+  </div>
+<div class="card">
+    <a href='<?php echo $domain;?><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=x9681ck"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>' target="_blank" class="main-link">
+      <h3 class="title">Dawshom Awbotaar.</h3>
+
+      <div class="image">
+        <img src="https://legacy.asset.viewlift.com/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2024/02/12/1707737525310_da_1280x720_16x9Images.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+      </div>
+
+    <span class="description">2023 | Bengali | Crime Thriller | 2h 31m
+</span>
+
+</a>
+  </div>
+  <div class="card">
+    <a href='<?php echo $domain;?><iframe width="100%" height="100%" src="https://www.youtube.com/embed/1waQPnOR-yI?si=7kf_2nKYM0HFs5t6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' target="_blank" class="main-link">
+      <h3 class="title">Khoj</h3>
+
+      <div class="image">
+        <img src="https://legacy.asset.viewlift.com/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/0f/9f/4fee95ee4d4ab309f608155e354b/1568460758251_khoj_16x9Images.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+      </div>
+    </a>
+
+    <span class="description">2017 | Bengali | mystery | 1h 55m
+</span>
+
+   
+  </div>
+  <div class="card">
+    <a href='<?php echo $domain;?><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=x8ofbgt"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>' target="_blank" class="main-link">
+      <h3 class="title">Pariah</h3>
+
+      <div class="image">
+        <img src="https://legacy.asset.viewlift.com/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/2024/12/20/1734672616971_pariah_poster_1280x720111_16x9Images.png" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+      </div>
+    </a>
+
+    <span class="description">2024 | Bengali | action_thriller | 2h 15m
+</span>
+
+    
+  </div>
+
+  
+
+  
+  <div class="card">
+    <!-- Notice that both the image and the product title are in the same link. This can massively reduce the number of redundant tabstops on a page with lots of products, creating a better UX for keyboard-only and screen reader users. -->
+    <a href='<?php echo $domain;?><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=x8f4wzw"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>' target="_blank" class="main-link">
+      <h3 class="title">Ek Hazaaron Mein… Meri Behna Hai</h3>
+
+      <!-- This image has a descriptive alt attribute, so it helps to place it after the heading in the DOM. Flexbox is used to place it above the heading visually (see the CSS tab to see how). -->
+      <div class="image">
+        <img src="https://d229kpbsb5jevy.cloudfront.net/sony4/videoasset_images/ehmmbh_hindi_21june_landscape_thumb.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+      </div>
+    </a>
+
+    <span class="description">Hindi | 2h 12m  | 2023</span>
+
+    <!-- The badge is placed right next to prices so its read out by screen readers in a more logical way. -->
+
+    <!-- Star icons don't convey anything to screen readers on their own, so we need to provide screen-reader-only text with their meaning. -->
+
+  </div>
+  
+  <div class="card">
+    <a href='<?php echo $domain;?><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=x8fmlp4"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>' target="_blank" class="main-link">
       <h3 class="title">Vashikaran
       </h3>
 
@@ -127,7 +182,14 @@
     
   </div>
   <div class="card">
-    <a href="https://accessible360.com" target="_blank" class="main-link">
+    <a href='<?php echo $domain;?><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=x4msjfq"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>' target="_blank" class="main-link">
       <h3 class="title">Lootera</h3>
 
       <div class="image">

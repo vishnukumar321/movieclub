@@ -247,10 +247,7 @@ button{
   outline: none;
 }
 .card-slider .card .main-link:focus .title {
-  outline: 3px dashed orange;
   outline-offset: -4px;
-  color: royalblue;
-  text-decoration: underline;
 }
 .card-slider .card .title {
   color: #ffffff;
