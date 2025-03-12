@@ -10,13 +10,13 @@
       <td><input class="te" type="text" placeholder="Username"></td>
     </tr>
     <tr>
-      <td><input class="te" type="text" placeholder="Password"></td>
+      <td><input class="te" type="email" placeholder="Email"></td>
     </tr>
       <tr>
-      <td><input class="te" type="text" placeholder="Username"></td>
+      <td><input class="te" type="tel" placeholder="Phone No"></td>
     </tr>
     <tr>
-      <td><input class="te" type="text" placeholder="Password"></td>
+      <td><input class="te" type="Password" placeholder="Password"></td>
     </tr>
     <tr>
       <td><input class="sub" type="submit"></td>
